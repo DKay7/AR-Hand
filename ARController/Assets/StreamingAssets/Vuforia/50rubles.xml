@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="qr-code" size="5.000000 5.000000" />
+    <ImageTarget name="KREST" size="5.000000 2.669433" />
+    <ImageTarget name="50rubles" size="5.000000 2.143478" />
+    <ImageTarget name="90494385" size="5.000000 2.368164" />
+    <ImageTarget name="100rubles" size="5.000000 2.133333" />
+  </Tracking>
+</QCARConfig>

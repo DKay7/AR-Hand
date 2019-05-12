@@ -8,7 +8,7 @@ public class movement : MonoBehaviour
     public float speed;
     private float amoutToMove;
 
-    SerialPort sp = new SerialPort("COM3", 9600);
+    SerialPort sp = new SerialPort("COM12", 9600);
     // Start is called before the first frame update
     void Start()
     {
@@ -38,20 +38,20 @@ public class movement : MonoBehaviour
     }
     void MoveObject(int Direction)
     {
-        if (Direction == 65)
+        if (Direction == 1)
         {
             transform.Translate(Vector3.left * amoutToMove, Space.World);
         }
 
-        if (Direction == 51)
+        if (Direction == 2)
         {
             transform.Translate(Vector3.right * amoutToMove, Space.World);
         }
-        if (Direction == 54)
+        if (Direction == 3)
         {
             transform.Translate(Vector3.forward * amoutToMove, Space.World);
         }
-        if (Direction == 66)
+        if (Direction == 4)
         {
             transform.Translate(Vector3.back * amoutToMove, Space.World);
         }

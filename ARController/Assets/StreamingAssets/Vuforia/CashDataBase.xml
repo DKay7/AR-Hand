@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="AR-marker4" size="5.000000 5.000000" />
+    <ImageTarget name="AR-marker3" size="5.000000 5.000000" />
+    <ImageTarget name="100R" size="5.000000 3.750000" />
+    <ImageTarget name="200R" size="5.000000 2.250203" />
+  </Tracking>
+</QCARConfig>
